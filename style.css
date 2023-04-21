@@ -9,57 +9,51 @@
 }
 
 body{
-    background-image: url("../assets/fundo.svg");
+    display: flex;
+    background-image: url("../assets/background.svg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .garden{
-    display:flex;
-    width: 100%;
+    margin: 20rem auto 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5rem;
 }
 
 .holes{
-    display: grid;
-    gap: 5.4rem;
-    margin-bottom: 10rem;
-
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-}
-
-.moles {
+    width: 20.2rem;
+    height: 14.9rem;
     margin: 0 auto;
-    width: 22.2rem;
-    height: 16.9rem;
 
-    background-image: url("../assets/toupeira6.svg");
+    background-image: url("../assets/mole6.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-.moles.one{
-    animation: show 1s 2s ease;
+.holes.one{
+    animation: showMole 1s 2s ease;
 }
 
-.moles.two{
-    animation: show 1s 5s ease;
+.holes.two{
+    animation: showMole 1s 5s ease;
 }
 
-.moles.three{
-    animation: show 1s 8s ease;
+.holes.three{
+    animation: showMole 1s 8s ease;
 }
 
-.moles.four{
-    animation: show 1s 11s ease;
+.holes.four{
+    animation: showMole 1s 11s ease;
 }
 
-
-@keyframes show {
-    0% { background-image: url("./assets/toupeira1.svg");}
-    25% {background-image: url("./assets/toupeira2.svg");}
-    50% {background-image: url("./assets/toupeira3.svg");}
-    75% {background-image: url("./assets/toupeira4.svg");}
-    100% {background-image: url("./assets/toupeira5.svg");}
+@keyframes showMole {
+    0% { background-image: url("./assets/mole1.svg");}
+    25% {background-image: url("./assets/mole2.svg");}
+    50% {background-image: url("./assets/mole3.svg");}
+    75% {background-image: url("./assets/mole4.svg");}
+    100% {background-image: url("./assets/mole5.svg");}
 }
