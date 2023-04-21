@@ -1,6 +1,6 @@
 # <h1 align="center">Wack a Mole</h1>
 
-<p align="center"> Extra Challenge - Stage 03 - RocketSeat Explorer.
+<p align="center"> Extra Challenge - Stage 03 - Rocketseat Explorer.
 </p>
 
 <p align="center">
