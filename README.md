@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img alt="Wack a Mole" src="./assets/cover.png" width="100%">
+  <img alt="Wack a Mole" src="./cover.png" width="100%">
 </p>
 
 ## 📝 Worked Concepts
